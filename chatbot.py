@@ -355,17 +355,18 @@ if selections=="Feedback":
 
     
     with col2:
-        experience_x=df['Up to what extent this chatbot contributed to your learning experience or academic efficiency?'].value_counts().index
-        experience_y=df['Up to what extent this chatbot contributed to your learning experience or academic efficiency?'].value_counts().values
-        st.write("Does Chatbot Contributed to Your Learning Experience?")
-        fig, ax = plt.subplots(figsize=(6, 4))
-        # ax.bar(x=ratings_x,height=ratings_y)
-        sns.barplot(x=experience_x, y=experience_y, ax=ax, palette="deep")
-        # ax.set_xticks([1, 2, 3, 4, 5])
-        ax.set_xlabel("Category")
-        ax.set_ylabel("Values")
-        ax.set_title("Does Chatbot Contributed to Your Learning Experience?")
-        st.pyplot(fig)
+        st.write("")
+        # experience_x=df['Up to what extent this chatbot contributed to your learning experience or academic efficiency?'].value_counts().index
+        # experience_y=df['Up to what extent this chatbot contributed to your learning experience or academic efficiency?'].value_counts().values
+        # st.write("Does Chatbot Contributed to Your Learning Experience?")
+        # fig, ax = plt.subplots(figsize=(6, 4))
+        # # ax.bar(x=ratings_x,height=ratings_y)
+        # sns.barplot(x=experience_x, y=experience_y, ax=ax, palette="deep")
+        # # ax.set_xticks([1, 2, 3, 4, 5])
+        # ax.set_xlabel("Category")
+        # ax.set_ylabel("Values")
+        # ax.set_title("Does Chatbot Contributed to Your Learning Experience?")
+        # st.pyplot(fig)
 
     col1,col2=st.columns(2)
     with col1:
